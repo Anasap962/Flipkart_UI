@@ -1,0 +1,156 @@
+name: ajio_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  banner_carousel: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/20180511063849-flipkart-logo-detail-icon.jpeg
+    - assets/fast-shopping-logo-design-shopping-cart-with-flash-logo-icon-free-vector.jpg
+    - assets/flipkart_big_billion_days_sale_1695627321314.webp
+    - assets/zs_pictureslides_29.jpg
+    - assets/zs_pictureslides_82.jpg
+    - assets/zs_pictureslides_87.jpg
+    - assets/iPhone-14.webp
+    - assets/acielle_copenhagenday2_13.webp
+    - assets/paris-fashion-week-fall-2021-street-style.jpg
+    - assets/credit-card-flat-icon-vector-20696649.jpg
+    - assets/depositphotos_588674258-stock-illustration-dental-game-logo-icon-design.jpg
+    - assets/gold-coin-icon-money-design-gold-dollar-flat-symbol-illustration-free-vector.jpg
+    - assets/images.jpeg
+    - assets/four-people-logo-icon-vector-27627187.jpg
+    - assets/emi-logo-emi-letter-emi-letter-logo-design-initials-emi-logo-linked-with-circle-and-uppercase-monogram-logo-emi-typography-for-technology-business-and-real-estate-brand-vec.jpg
+    - assets/discount-coupon-with-five-stars-3d-icon-Graphics-63822284-1.jpg
+    - assets/macbook_pro_2016_1677490275_f3808972_progressive.jpg
+    - assets/f4344c32eba4326e9c59b270ca6f607c.jpg
+    - assets/BestofSeries_Primary_Mobile_copy.webp
+    - assets/1696857622524.jpeg
+    - assets/maxresdefault.jpg
+    - assets/istockphoto-1208148708-612x612.jpg
+    - assets/1694551718270.png
+    - assets/visuel-slideshow-le-beau_0.jpg
+    - assets/f-best-smartwatches-for-women-103961694409990380.jpeg
+    - assets/download (1).jpg
+    - assets/768-7682887_since-free-groceries.png
+    - assets/s-l1600.jpg
+    - assets/8522346c05525356198706df30c7ebe0.jpg
+    - assets/depositphotos_139809276-stock-photo-consumer-and-home-electronics.jpg
+    - assets/1.jpg
+    - assets/360_F_168515550_AYObBKUuUS3k0fleEsBI0yxVGVYOm5nm.jpg
+    - assets/1366384-01.jpeg
+    - assets/51gT7JBpUOL.jpg
+    - assets/Insurance-Broker-License.jpg
+    - assets/istockphoto-626232438-612x612.jpg
+    - assets/istockphoto-1391715832-612x612.jpg
+    - assets/bmw-s1000rr-f90-hd-wallpaper-preview.jpg
+    - assets/k2d22h.jpg
+    - assets/360_F_118425925_n2GZJR42P1ai0p3qYmNe375LCd6kQ9R4.jpg
+    - assets/depositphotos_474995608-stock-photo-electrician-tools-floor-room.jpg
+    - assets/gold-coin-icon-money-design-gold-dollar-flat-symbol-illustration-free-vector.jpg
+    - assets/discount-coupon-with-five-stars-3d-icon-Graphics-63822284-1.jpg
+    - assets/credit-card-flat-icon-vector-20696649.jpg
+    - assets/depositphotos_588674258-stock-illustration-dental-game-logo-icon-design.jpg
+    - assets/four-people-logo-icon-vector-27627187.jpg
+    - assets/notification-vector-27781750.jpg
+    - assets/coin appbar.jpg
+    - assets/image for acc.png
+    - assets/orders icon.png
+    - assets/Wishlist image for acc page.png
+    - assets/acc plus for accpage.png
+    - assets/pay later image.png
+    - assets/coupens image for box 3.png
+    - assets/help centre for box 4.png
+    - assets/paris-fashion-week-fall-2021-street-style.jpg
+    - assets/pngimg.com - coin_PNG36907.png
+    - assets/depositphotos_607162506-stock-photo-make-money-internet-hand-holding.jpg
+    - assets/dd748ca533102e76d068ac837838b199.jpg
+    - assets/pexels-pixabay-276528.jpg
+    - assets/243519_0_flwcp4.png
+    - assets/imagessdfghjk.jpeg
+    - assets/pexels-photo-1866149.jpeg
+    - assets/2502966-200.png
+    - assets/images.jpeg
+    - assets/kisspng-coupon-computer-icons-discounts-and-allowances-vou-term-5ae3e122ec9fe8.1765830415248837469692.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
